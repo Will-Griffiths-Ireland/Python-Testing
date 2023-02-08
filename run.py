@@ -1,8 +1,8 @@
+import os
+import time
 from rich.console import Console
 from rich.panel import Panel
-import os
 from rich import print
-import time
 os.system('cls' if os.name == 'nt' else 'clear')
 c = Console()
 f = open('logo.txt')
